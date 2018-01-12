@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  height: 3600px;
+  background-color: #2d2d2d;
+  color: #e1e1e1;
+}
+
+.content-1 {
+  width: 100%;
+  height: 25%;
+  position: relative;
+}
+
+.content-2 {
+  width: 100%;
+  height: 25%;
+  position: relative;
+}
+
+.content-3 {
+  width: 100%;
+  height: 25%;
+  position: relative;
+}
+
+.content-4 {
+width: 100%;
+height: 25%;
+position: relative;
+}
+
+.name {
+font-family: 'Lato', sans-serif;
+font-size: 120px;
+position: absolute;
+top: 25%;
+left: 32.5%;
+font-weight: 800;
+letter-spacing: 10px;
+}
+
+.scroll {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-style: Thin;
+  position: absolute;
+  bottom: 32%;
+  left: 46%;
+}
+
+.scroll-a {
+
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 36px solid #ab1323;
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 31%;
+  left: 51%;
+
+}
+
+.rmkngy {
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  position: absolute;
+  top: 10%;
+  left: 29.35%;
+  z-index: 2;
+  color: #ab1323;
+
+}
+
+.education {
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  position: absolute;
+  top: 29%;
+  right: 37%;
+  z-index: 2;
+  color: #ab1323;
+}
+
+.contact {
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  color: #ab1323;
+  z-index: 2;
+
+}
+.container-desc {
+  height: 30%;
+  width: 24%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  filter: blur(0.2px);
+  border: 4px double;
+
+}
+
+.container-desc-1 {
+  height: 37%;
+  width: 28%;
+  position: absolute;
+  right: 18%;
+  top: 40%;
+  border: 4px double;
+}
+
+.container-desc-2 {
+  height: 30%;
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  border: 4px double;
+}
+
+.desc {
+  font-size: 30px;
+  text-align: left;
+  padding: 20px;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+
+.date {
+  font-size: 80px;
+  color: #2d2d2d;
+  position: absolute;
+  bottom: 20%;
+  right: 15%;
+  color: 	#efd3a1;
+  opacity: 0.5;
+}
+
+.square-1 {
+  width: 200px;
+  height: 200px;
+  background-color: 	#e1e1e1;
+  position: absolute;
+  right: 30%;
+  bottom: 10%;
+  filter: blur(10px);
+  z-index: 2;
+}
+
+.square-2 {
+  width: 140px;
+  height: 140px;
+  background-color: #ab1323;
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  filter: blur(0.5px);
+
+}
+
+  .triangle-1 {
+    width:0;
+	  height:0;
+	  border-left: 30px solid transparent;
+	  border-right: 30px solid transparent;
+	  border-bottom: 60px solid #efd3a1;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+  }
+
+  .w {
+    font-size: 100px;
+    color: #efd3a1;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-weight: 800;
+    opacity: 0.5;
+  }
+
+  .e {
+    font-size: 100px;
+    color: #efd3a1;
+    position: absolute;
+    font-weight: 800;
+    top: 30%;
+    left: 20%;
+    opacity: 0.5;
+  }
+
+  .b {
+    font-size: 100px;
+    color: #efd3a1;
+    position: absolute;
+    font-weight: 800;
+    top: 50%;
+    left: 35%;
+    opacity: 0.5;
+  }
+
+  .trapeze {
+    width:150px;
+	border-top: 110px solid #ab1323;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+  position: absolute;
+  bottom: 20%;
+  left: 24%;
+  z-index: 2;
+  filter: blur(10px);
+  }
+
+  .trapeze-1 {
+    width:60px;
+ 	border-top:57px solid #e1e1e1;
+ 	border-left:19px solid transparent;
+ 	border-right:19px solid transparent;
+   position: absolute;
+   top: 40%;
+   left: 12%;
+   -moz-transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   -o-transform: rotate(90deg);
+   transform: rotate(90deg);
+  }
+
+  .exagon {
+    font-size: 300px;
+    color: #efd3a1;
+    position: absolute;
+    bottom: 30%;
+    right: 15%;
+    filter: blur(10px);
+  }
+
+  .exagon-1 {
+    font-size: 150px;
+    color: #e1e1e1;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+  }
+
+  .exagon-2 {
+    font-size: 100px;
+    color: #ab1323;
+    position: absolute;
+    bottom: 30%;
+    right: 50%;
+  }
